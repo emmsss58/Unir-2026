@@ -2,6 +2,6 @@
 ejemplo practico de repositorio IPC
 
 ## Subtitulo
-_bara baja para ponerlo en cursivo_
+_barra baja para ponerlo en cursivo_
 **dos aasteriscos para ponerlo en bold**
 ### Subtitulo más chico
