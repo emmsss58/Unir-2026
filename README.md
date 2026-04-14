@@ -6,6 +6,7 @@
 - Processed_data, para los datos procesados. Estructura de carpetas igual que la anterior, pero con archivos diferentes, uno que hace referencia al conteo de la expresión genética y otro que normaliza los datos. Además, se incluyen las dos matrices que aúnan todos los datos, antes y después de normalizar.
 - Metadata: contiene dos archivos, uno que da información sobre las muestras y otro sobre el proceso experimental.
 - External_data: contiene el genoma de referencia y un archivo de anotaciones.
+
 ## Creación de la carpeta Scripts y de todas las carpetas que esta contiene:
 Esta carpeta contiene los archivos necesarios para llevar a cabo el análisis completo de los datos de expresión génica: desde el procesamiento hasta la generación de resultados. El objetivo es garantizar la reproducibilidad del análisis y permitir reconstruir los resultados obtenidos.
 - main: es el archivo principal del proyecto. Actúa como punto de entrada del pipeline y coordina la ejecución de los distintos módulos en el orden adecuado (lectura de datos, preprocesamiento, normalización, análisis diferencial y generación de resultados).
@@ -31,3 +32,48 @@ Permite analizar contrastes directos e identificar diferencias moleculares entre
 Contiene los resultados finales tras filtrado, validación e integración de los resultados anteriores. 
 Incluye lista definitiva de los genes con expresión diferencial, resultados depurados y relevantes; además de tablas finales para su inlusión en informes o artículos para publicación.
 En esta sección se recogen únicamente los resultados más relevantes y significativos para la correcta interpretación biológica. 
+
+
+## Creación de la carpeta Documentación adicional y de todas las carpetas que esta contiene:
+
+Esta carpeta reúne materiales complementarios que apoyan el desarrollo del proyecto, organizados en cuatro grandes bloques: bibliografía, control de calidad, cronograma y protección de datos. Su objetivo es centralizar toda la información de referencia, resultados técnicos, planificación y documentos éticos utilizados por el equipo.
+
+### Bibliografía
+
+Esta carpeta contiene documentación de referencia utilizada para comprender el contexto biológico del proyecto. Incluye archivos sobre distintos tipos de cáncer:
+- **Adenocarcinoma**
+- **Carcinoma de células grandes**
+- **Carcinoma epidermoide**
+- **Cáncer microcítico**
+Estos documentos sirven como base teórica para interpretar los resultados y justificar decisiones metodológicas.
+
+### Control de calidad
+
+En esta sección se almacena todo el material relacionado con la evaluación de la calidad de los datos, desde los análisis iniciales de las lecturas crudas hasta controles posteriores más específicos.
+
+#### Archivos FASTQC
+Reportes generados mediante FASTQC para evaluar la calidad de las secuencias crudas. Estos documentos permiten revisar métricas clave como calidad por base, contenido GC, sobre-representación de secuencias, entre otras. Cada archivo corresponde a una muestra:
+- **ADC_fastqc.html**
+- **LCC_fastqc.html**
+- **SCC_fastqc.html**
+- **SCLC_fastqc.html**
+
+#### Informes
+Incluye diversos documentos descriptivos que complementan el análisis técnico:
+- **Normalización** – Proceso de normalización aplicado a los datos.
+- **QC Alineamiento** – Evaluación del alineamiento de lecturas.
+- **QC Biológico** – Revisión de consistencia desde un punto de vista biológico.
+- **QC Datos crudos** – Control de calidad previo a cualquier procesamiento.
+- **Conclusión QC.md** – Síntesis general de los resultados del control de calidad.
+- **Indicadores.md** – Resumen de métricas empleadas para evaluar la calidad.
+
+### Cronograma
+Carpeta destinada a la planificación y seguimiento del proyecto. Incluye:
+- **Entregables.md** – Listado y descripción de entregables.
+- **Planificación general.md** – Cronograma global del proyecto.
+- **Seguimiento.md** – Registro del progreso y actividades realizadas.
+- **Tareas.md** – Distribución del trabajo entre integrantes.
+
+### Protección de datos
+
+Contiene documentos relacionados con aspectos éticos y legales del proyecto, entre ellos el **Consentimiento informado.md**.
