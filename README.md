@@ -1,7 +1,5 @@
-# Unir-2026
-ejemplo practico de repositorio IPC
-HOLA
-Expresión diferencial entre diferentes tipos de cancer de pulmón
+# Expresión diferencial de genes entre diferentes tipos de cáncer de pulmón
+
 
 ## Creación de la carpeta Data y de todas las carpetas que esta contiene:
 - Raw_Data, para los datos crudos, incluyendo una carpeta para el control y una para cada tipo de tumor: ADC (adenocarcinoma), SCC (carcinoma epidermoide), LCC (cáncer de pulmón de células grandes) y SCLC (cáncer de pulmón de células pequeñas). Dentro de cada uno hay 4 archivos que se corresponden a las dos lecturas de dos conjuntos de datos. 
