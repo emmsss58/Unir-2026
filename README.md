@@ -20,12 +20,12 @@ expresion_diferencial: esta carpeta contiene los scripts para el análisis de ex
 ## Creación de la carpeta Resultados y de todas las carpetas que esta contiene:
 Esta carpeta contendrá todos los análisis de los datos obtenidos y almacenados en la carpeta **Data**. Su objetivo es organizar los resultados en diferentes niveles, facilitando la trazabilidad y la interpretación del estudio.
 ### Tablas
-Esta carpeta contiene los datos organizados de forma tabular tras el preprocesamiento. Incluye: matrices de expresión génica, tablas con las muestras clasificadas según el tipo tumoral y los datos preparado para el posterior análisis estadístico.
+Esta carpeta contiene los datos organizados de forma tabular tras el preprocesamiento. Incluye: matrices de expresión génica, tablas con las muestras clasificadas según el tipo tumoral, datos preparado para el posterior análisis estadístico, etc. 
 Representan la base del análisis ya que permiten trabajar con los datos de forma ordenada, asegurando una correcta clasificación.
-### Estadístico
-Contiene los resultados de los análisis estadísticos, como por ejemplo: p-value de comparaciones entre grupos, valores ajustados, expresión media, variabilidad de grupo, etc. 
-Permite evaluar de forma significativa las diferencias observadas en la expresión de los diferentes genes en los diferentes tipos de cáncer del estudio, asegurando asíi que los resultados no son debidos al azar.
-### Comparación
+### Estadísticos
+Contiene los resultados de los análisis estadísticos, como por ejemplo: p-value de comparaciones entre grupos, valores ajustados, anova, t-test, etc. 
+Permite evaluar de forma significativa las diferencias observadas en la expresión de los diferentes genes en los diferentes tipos de cáncer del estudio, asegurando así que los resultados no son debidos al azar.
+### Comparaciones
 Contiene los resultados de las comparaciones entre los diferentes tipos tumorales. incluye: análisis entre pares de grupos y resúmenes de genes con los cambios más relevantes.
 Permite analizar contrastes directos e identificar diferencias moleculares entre los tipos de cancer. 
 ### Finales
