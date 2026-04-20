@@ -7,11 +7,12 @@ Al igual que muchos otros tipos de cáncer, el cáncer de pulmón presenta numer
 
 El cáncer de pulmón se clasifica en dos tipos principales: cáncer de pulmón de células no pequeñas y cáncer de pulmón de células pequeñas, dependiendo de cómo se vean estas en el microscopio. Cada tipo de cáncer de pulmón crece y se disemina de forma diferente y necesita diferente tratamiento. 
 
--Cáncer del pulmón de células no pequeñas: es el más frecuente. Se subdivide a su vez en tres tipos: carcinoma epidermoide, adenocarcinoma y carcinomas de células grandes.
-- Cáncer del pulmón de células pequeñas: llamado también cáncer microcítico, cuyas células parecen granos de avena al ver las al microscopio; crece con rapidez y de igual forma se disemina a otros órganos.
-Por tanto, 4 subtipos: carcinoma epidermoide, adenocarcinoma, carcinoma de células grandes y cáncer del pulmón de células pequeñas o microcítico.
+- Cáncer de pulmón de células no pequeñas: es el más frecuente. Se subdivide a su vez en tres tipos: carcinoma epidermoide, adenocarcinoma y carcinoma de células grandes.
+- Cáncer de pulmón de células pequeñas: llamado también cáncer microcítico, cuyas células parecen granos de avena al verlas al microscopio; crece con rapidez y de igual forma se disemina a otros órganos.
+  
+Por tanto, podemos hablar de 4 subtipos: carcinoma epidermoide, adenocarcinoma, carcinoma de células grandes y cáncer de pulmón de células pequeñas o microcítico.
 
-
+# Objetivos
 
 ## Creación de la carpeta Data y de todas las carpetas que esta contiene:
 - Raw_Data, para los datos crudos, incluyendo una carpeta para el control y una para cada tipo de tumor: ADC (adenocarcinoma), SCC (carcinoma epidermoide), LCC (cáncer de pulmón de células grandes) y SCLC (cáncer de pulmón de células pequeñas). Dentro de cada uno hay 4 archivos que se corresponden a las dos lecturas de dos conjuntos de datos. 
