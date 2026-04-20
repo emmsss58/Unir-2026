@@ -1,9 +1,9 @@
 # Expresión diferencial de genes entre diferentes tipos de cáncer de pulmón
 
 # Introducción
-El cáncer de pulmón es el más frecuente en ambos sexos a nivel mundial. Diversos factores contribuyen a su aparición, destacando principalmente el consumo de tabaco; sin embargo, también se ha relacionado con aspectos genéticos, exposición a partículas, pesticidas, etc. 
+El cáncer de pulmón es el más frecuente en ambos sexos a nivel mundial. Diversos factores contribuyen a su aparición, destacando principalmente el consumo de tabaco; sin embargo, también se ha relacionado con aspectos genéticos, exposición a partículas, pesticidas, etc (1)
 
-Al igual que muchos otros tipos de cáncer, el cáncer de pulmón presenta numerosas alteraciones en la secuencia de ADN y epigenéticas; que juntas resultan en una activación de oncogenes e inactivación de genes supresores de tumores y reparadores de ADN. La alteración genética más frecuente es la del gen EGFR, la cual permite a los tumores ser independientes de señales producidas por otros genes. 
+Al igual que muchos otros tipos de cáncer, el cáncer de pulmón presenta numerosas alteraciones en la secuencia de ADN y epigenéticas; que juntas resultan en una activación de oncogenes e inactivación de genes supresores de tumores y reparadores de ADN. La alteración genética más frecuente es la del gen EGFR, la cual permite a los tumores ser independientes de señales producidas por otros genes (1)
 
 El cáncer de pulmón se clasifica en dos tipos principales: cáncer de pulmón de células no pequeñas y cáncer de pulmón de células pequeñas, dependiendo de cómo se vean estas en el microscopio. Cada tipo de cáncer de pulmón crece y se disemina de forma diferente y necesita diferente tratamiento. 
 
@@ -90,3 +90,6 @@ Carpeta destinada a la planificación y seguimiento del proyecto. Incluye:
 ### Protección de datos
 
 Contiene documentos relacionados con aspectos éticos y legales del proyecto, entre ellos el **Consentimiento informado.md**.
+
+# Bibliografía
+1. Kajatt EA. Cáncer de pulmón, una revisión sobre el conocimiento actual, métodos diagnósticos y perspectivas terapéuticas. Revista Peruana de Medicina Experimental y Salud Pública [Internet]. 7 de febrero de 2014;30(1). Disponible en: https://doi.org/10.17843/rpmesp.2013.301.163
