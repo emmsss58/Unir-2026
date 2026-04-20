@@ -1,5 +1,16 @@
 # Expresión diferencial de genes entre diferentes tipos de cáncer de pulmón
 
+# Introducción
+El cáncer de pulmón es el más frecuente en ambos sexos a nivel mundial. Diversos factores contribuyen a su aparición, destacando principalmente el consumo de tabaco; sin embargo, también se ha relacionado con aspectos genéticos, exposición a partículas, pesticidas, etc. 
+
+Al igual que muchos otros tipos de cáncer, el cáncer de pulmón presenta numerosas alteraciones en la secuencia de ADN y epigenéticas; que juntas resultan en una activación de oncogenes e inactivación de genes supresores de tumores y reparadores de ADN. La alteración genética más frecuente es la del gen EGFR, la cual permite a los tumores ser independientes de señales producidas por otros genes. 
+
+El cáncer de pulmón se clasifica en dos tipos principales: cáncer de pulmón de células no pequeñas y cáncer de pulmón de células pequeñas, dependiendo de cómo se vean estas en el microscopio. Cada tipo de cáncer de pulmón crece y se disemina de forma diferente y necesita diferente tratamiento. 
+-Cáncer del pulmón de células no pequeñas: es el más frecuente. Se subdivide a su vez en tres tipos: carcinoma epidermoide, adenocarcinoma y carcinomas de células grandes.
+- Cáncer del pulmón de células pequeñas: llamado también cáncer microcítico, cuyas células parecen granos de avena al ver las al microscopio; crece con rapidez y de igual forma se disemina a otros órganos.
+Por tanto, 4 subtipos: carcinoma epidermoide, adenocarcinoma, carcinoma de células grandes y cáncer del pulmón de células pequeñas o microcítico.
+
+
 
 ## Creación de la carpeta Data y de todas las carpetas que esta contiene:
 - Raw_Data, para los datos crudos, incluyendo una carpeta para el control y una para cada tipo de tumor: ADC (adenocarcinoma), SCC (carcinoma epidermoide), LCC (cáncer de pulmón de células grandes) y SCLC (cáncer de pulmón de células pequeñas). Dentro de cada uno hay 4 archivos que se corresponden a las dos lecturas de dos conjuntos de datos. 
