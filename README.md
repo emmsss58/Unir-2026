@@ -1,6 +1,6 @@
 # Expresión diferencial de genes entre diferentes tipos de cáncer de pulmón
 
-# Introducción
+## Introducción
 El cáncer de pulmón es el más frecuente en ambos sexos a nivel mundial. Diversos factores contribuyen a su aparición, destacando principalmente el consumo de tabaco; sin embargo, también se ha relacionado con aspectos genéticos, exposición a partículas, pesticidas, etc (1)
 
 Al igual que muchos otros tipos de cáncer, el cáncer de pulmón presenta numerosas alteraciones en la secuencia de ADN y epigenéticas; que juntas resultan en una activación de oncogenes e inactivación de genes supresores de tumores y reparadores de ADN. La alteración genética más frecuente es la del gen EGFR, la cual permite a los tumores ser independientes de señales producidas por otros genes (1)
@@ -12,8 +12,16 @@ El cáncer de pulmón se clasifica en dos tipos principales: cáncer de pulmón 
   
 Por tanto, podemos hablar de 4 subtipos: carcinoma epidermoide, adenocarcinoma, carcinoma de células grandes y cáncer de pulmón de células pequeñas o microcítico.
 
-# Objetivos
+## Objetivos
 
+- Objetivo principal: Analizar la expresión diferencial de genes entre los distinyos tipos de cáncer de pulmón para identificar diferencias moleculares relevantes.
+- Objetivos específicos:
+  - Procesar y normalizar los datos de expresión génica obtenidos de las muestras.
+  - Comparar la expresión génica entre los subtipos tumorales (ADC, SCC, LCC y SCLC).
+  - Identificar genes con expresión diferencial significativa entre los distintos tipos de cáncer.
+  - Evaluar la relevancia biológica de los genes identificados en relación con el desarrollo del cáncer de pulmón.
+
+## Carpetas
 ## Creación de la carpeta Data y de todas las carpetas que esta contiene:
 - Raw_Data, para los datos crudos, incluyendo una carpeta para el control y una para cada tipo de tumor: ADC (adenocarcinoma), SCC (carcinoma epidermoide), LCC (cáncer de pulmón de células grandes) y SCLC (cáncer de pulmón de células pequeñas). Dentro de cada uno hay 4 archivos que se corresponden a las dos lecturas de dos conjuntos de datos. 
 - Processed_data, para los datos procesados. Estructura de carpetas igual que la anterior, pero con archivos diferentes, uno que hace referencia al conteo de la expresión genética y otro que normaliza los datos. Además, se incluyen las dos matrices que aúnan todos los datos, antes y después de normalizar.
