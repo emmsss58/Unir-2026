@@ -55,11 +55,11 @@ Incluye lista definitiva de los genes con expresión diferencial, resultados dep
 En esta sección se recogen únicamente los resultados más relevantes y significativos para la correcta interpretación biológica. 
 
 
-## Documentación adicional
+### Documentación adicional
 
 Esta carpeta reúne materiales complementarios que apoyan el desarrollo del proyecto, organizados en cuatro grandes bloques: bibliografía, control de calidad, cronograma y protección de datos. Su objetivo es centralizar toda la información de referencia, resultados técnicos, planificación y documentos éticos utilizados por el equipo.
 
-### Bibliografía
+#### Bibliografía
 
 Esta carpeta contiene documentación de referencia utilizada para comprender el contexto biológico del proyecto. Incluye archivos sobre distintos tipos de cáncer:
 - **Adenocarcinoma**
@@ -68,18 +68,18 @@ Esta carpeta contiene documentación de referencia utilizada para comprender el 
 - **Cáncer microcítico**
 Estos documentos sirven como base teórica para interpretar los resultados y justificar decisiones metodológicas.
 
-### Control de calidad
+#### Control de calidad
 
 En esta sección se almacena todo el material relacionado con la evaluación de la calidad de los datos, desde los análisis iniciales de las lecturas crudas hasta controles posteriores más específicos.
 
-#### Archivos FASTQC
+##### Archivos FASTQC
 Reportes generados mediante FASTQC para evaluar la calidad de las secuencias crudas. Estos documentos permiten revisar métricas clave como calidad por base, contenido GC, sobre-representación de secuencias, entre otras. Cada archivo corresponde a una muestra:
 - **ADC_fastqc.html**
 - **LCC_fastqc.html**
 - **SCC_fastqc.html**
 - **SCLC_fastqc.html**
 
-#### Informes
+##### Informes
 Incluye diversos documentos descriptivos que complementan el análisis técnico:
 - **Normalización** – Proceso de normalización aplicado a los datos.
 - **QC Alineamiento** – Evaluación del alineamiento de lecturas.
@@ -88,14 +88,14 @@ Incluye diversos documentos descriptivos que complementan el análisis técnico:
 - **Conclusión QC.md** – Síntesis general de los resultados del control de calidad.
 - **Indicadores.md** – Resumen de métricas empleadas para evaluar la calidad.
 
-### Cronograma
+#### Cronograma
 Carpeta destinada a la planificación y seguimiento del proyecto. Incluye:
 - **Entregables.md** – Listado y descripción de entregables.
 - **Planificación general.md** – Cronograma global del proyecto.
 - **Seguimiento.md** – Registro del progreso y actividades realizadas.
 - **Tareas.md** – Distribución del trabajo entre integrantes.
 
-### Protección de datos
+#### Protección de datos
 
 Contiene documentos relacionados con aspectos éticos y legales del proyecto, entre ellos el **Consentimiento informado.md**.
 
